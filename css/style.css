@@ -1,0 +1,105 @@
+#info{
+	background-image:linear-gradient(to right,#00CC66,#5f17b2,#00CC66);
+}
+h3{
+	text-align:center;
+	color: #fff;
+	font-size:50px;
+	font-style:all;
+}
+.container{
+	border-radius: 5px;
+	background-color: #F0FFFF;
+	padding: 20px;
+	margin-right:20%;
+	margin-left: 20%;
+}
+ 
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=file], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.categories{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+input[type=submit] {
+  width: 25%;
+  background-color: #5f17b2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+a {
+	text-decoration: none;
+  background-color: #00CC66;
+  color: white;
+  padding: 13px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=submit]:hover {
+  background-color: #00CC66;
+}
+a:hover {
+  background-color: #5f17b2;
+}
+span{
+  color: red;
+}
+h2{
+  text-align:center;
+  font-size:50px;
+  font-style:all;
+
+}
+#animals{
+  border-collapse: collapse;
+  width: 100%;
+}
+#animals td, #animals th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#animals tr:nth-child(even){background-color: #f2f2f2;}
+
+#animals tr:hover {background-color: #ddd;}
+
+#animals th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #316D8D;
+  color: white;
+}
+.main-div input{
+  padding:8px;
+  margin-bottom: 12px;
+}
